@@ -1,15 +1,53 @@
 *{
   
 }
-
+.wrapper {
+    margin-top: 20px;
+    margin-left: 10em;
+    margin-right: 5em;
+    width: 70%;
+    margin-bottom: 20em;
+}
 button{
-    color:red;
-    background-color: black;
+    color:rgb(255, 255, 255);
+    background-color: rgb(216, 216, 216);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid rgb(179, 179, 179);
+    margin-top: 4em;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+button:hover {
+    color:aqua;
+    background-color: rgb(196, 196, 196);
 }
 .heading{
 text-transform: uppercase;
 text-align: center;
+font-size: 3em;
+}
+p {
+    font-size: 17px;
 }
 h3, p, button {
     font-family: 'Rubik', sans-serif;
+}
+
+.flex_wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+.card button {
+    align-self: flex-end;
 }
